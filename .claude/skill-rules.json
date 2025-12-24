@@ -1,0 +1,14 @@
+{
+    "version": "1.0.0",
+    "skills": {
+          "version-bump": {
+                  "type": "domain",
+                  "enforcement": "suggest",
+                  "priority": "high",
+                  "promptTriggers": {
+                            "keywords": ["version", "bump", "release", "changelog", "update version"],
+                            "intentPatterns": ["(?:increment|increase|update|bump|release)\\s+(?:the\\s+)?version"]
+                  }
+          }
+    }
+}
